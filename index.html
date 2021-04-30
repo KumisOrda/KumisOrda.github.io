@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumis Orda</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    
+</head>
+<body>
+    <section id="up" class="promo">
+        <div class="container">
+            <header class="header">
+            <!-- <div class="header__official">
+                Kumis Orda
+                <span>Для комфортной жизни</span>
+            </div> -->
+            <div class="header__contacts">
+                <a href="tel:+77789620627" class="header__phone"> +7 (778) 962-06-27 </a>
+                <button data-modal="consultation" class="button">заказать звонок</button>
+            </div>
+            </header>
+            <div class="promo__wrapper">
+                <h1 class="promo__header">Подбор строительных материал</h1>
+                <h2 class="promo__subheader">с учётом Вашего пожелании</h2>
+
+                <div class="promo__icons">
+                    <div class="promo__icon">
+                        <img src="icons/timer_time_stopwatch.png" alt="timer">
+                        Время подбора:10 минут
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icons/hand-cart.png" alt="handcart">
+                        Бесплатная доставка
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icons/messages.png" alt="messages">
+                        Ответим на все вопросы
+                    </div>
+                </div>
+                <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+                <div class="promo__link">
+                    или
+                    <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits_title">О КОМПАНИИ</div>
+            <div class="benefits_company">KumisOrda отличается качеством сотрудников и неустанным стремлением к достижению наиболее успешных результатов. В основе KumisOrda лежат ценности - этика, безопасность, качество, люди, культура, отношения, инновации и устойчивость, а также наши обязательства - честность, уважение, сотрудничество, доверие и выполнение поставленных задач. Это то, во что мы верим, чего могут ожидать клиенты и как мы доставляем товары.
+            <br>KumisOrda основан на проверенных временем ценностях совершенства и честности. Это означает работу в соответствии с высочайшими этическими стандартами и неизменное качество наших проектов. Мы стремимся оставить наследие прогресса, развивая местные навыки для стабильных экономических возможностей и добровольно жертвуя своим временем и талантами сообществам, в которых мы работаем.
+                </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="benefits_items">
+                        <img src="img/1.svg" alt="1" class="learnUse">
+                        <div class="benefits_subtitles">Делимся опытом</div>
+                        <div class="benefits_descr">Наши сотрудники всегда готовы поделиться своим опытом, 
+                            так как согласовываем наши возможности с целями наших клиентов, чтобы оказывать долгосрочное положительное влияние!</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefits_items">
+                        <!-- <img src="img/2.svg" alt="2" class="benefits__icon benefits__icon_animate"> -->
+                        <img src="img/2.svg" alt="2" class="learnUse">
+                        <div class="benefits_subtitles">Заботимся о качестве</div>
+                        <div class="benefits_descr">Мы работаем для того, 
+                            чтобы Ваш выбор и желание шли на пользу Вашему строительству, чтобы обеспечила безопасную работу и были в радость Вам и Вашим близким! 
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefits_items">
+                        <img src="img/learnUse.svg" alt="3" class="learnUse">
+                        <div class="benefits_subtitles">Учим пользовать</div>
+                        <div class="benefits_descr">Помогаем с обучением 
+                            правильной технике использовании каждого инструмента! 
+                            Объясняем состав строительных смесей и подберем индивидульно.
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">Получите бесплатную консультацию <br> 
+                по подбору материала
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки <br>
+                и мы перезвоним вам в течении 10 минут  
+            </div>
+            <form id="consultation-form" class="feed-form" action="#">
+                <input id="forName" name="name" required placeholder="Ваше имя" type="text">
+                <input id="forNumber" name="phone" required placeholder="Ваше телефон">
+                <input id="forEmail" name="email" required placeholder="Ваше E-mail" type="email">
+                <button class="button button_submit" >заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title title_center">Каталог товаров</h2>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active"><div>Строительные оборудование</div></li>
+                <li class="catalog__tab"><div>Строительные смеси</div></li>
+                <li class="catalog__tab"><div>Строительные материалы</div></li>
+            </ul>
+            <div class="catalog__content catalog__content_active">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/buildEquipment/foldingLadder.jpg" alt="foldingLadder" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Лестница</div>
+                            <div class="catalog-item__descr">телескопическая 10 ступеней</div>
+                        </div>
+                        <!-- <ul class="catalog-item__list">
+                            <li>
+                                Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                            </li>
+                            <li>
+                                Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                            </li>
+                            <li>
+                                Также Вы увидите информацию о расходе калорий за тренировку;
+                            </li>
+                            <li>
+                                Вы сможете посмотреть данные по 10 тренировкам.
+                            </li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                        </ul> -->
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prises">
+                            <div class="catalog-item__old-price">31 750 тг.</div>
+                        <div class="catalog-item__price">30 500 тг.</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/StairsMoving.jpg" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Лестница</div>
+                        <div class="catalog-item__descr">раздвижная двухсекционная Elkop B44</div>
+                    </div>
+                    <!-- <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <div class="catalog-item__old-price">21 090 тг.</div>
+                    <div class="catalog-item__price">20 390 тг.</div>
+                    </div>
+                    
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/telescope_Stairs.jpg" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Лестница </div>
+                        <div class="catalog-item__descr">трехсекционная Standers 7 ступеней</div>
+                    </div>
+                    <!-- <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <div class="catalog-item__old-price">35 600 тг.</div>
+                    <div class="catalog-item__price">35 100 тг.</div>
+                    </div>
+                    
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/бетоносмеситель101к.jpg" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Бетоносмеситель</div>
+                        <div class="catalog-item__descr">СМ-120K 450 Вт 120 л</div>
+                    </div>
+                    <!-- <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                    <div class="catalog-item__price">73 850 тг.</div>
+                    </div>
+                    
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/slide1.jpg" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Бетоносмеситель</div>
+                        <div class="catalog-item__descr">СМ-200K 900 Вт 200 л</div>
+                    </div>
+                    <!-- <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                    <div class="catalog-item__price">102 320 тг.</div>
+                    </div>
+                    
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/slide3.jpg" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Бетоносмеситель</div>
+                        <div class="catalog-item__descr">Практика Б-120, 120 л</div>
+                    </div>
+                    <!-- <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                    <div class="catalog-item__price">58 590 тг.</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/Baumesser.png" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Алмазный диск</div>
+                        <div class="catalog-item__descr">1A1R Turbo 115x1,8x8x22,23 Baumesser Universal</div>
+                    </div>
+                    <!-- <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                    <div class="catalog-item__price">2550 тг/шт</div>
+                    </div>
+                    
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/Marble.jpg" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Алмазный диск</div>
+                        <div class="catalog-item__descr">Алмазный диск 1A1R 115x1,4x8x22,23 Marble</div>
+                    </div>
+                    <!-- <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                    <div class="catalog-item__price">5100 тг/шт</div>
+                    </div>
+                    
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+                <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/buildEquipment/extra.png" alt="pusometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Алмазный диск</div>
+                        <div class="catalog-item__descr">Алмазный диск 1A1R Turbo 115x2,2x8x22,23 Extra</div>
+                        <!-- <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a> -->
+                    </div>
+                   <!--  <ul class="catalog-item__list">
+                        <li>
+                            Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                        </li>
+                        <li>
+                            Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                        </li>
+                        <li>
+                            Также Вы увидите информацию о расходе калорий за тренировку;
+                        </li>
+                        <li>
+                            Вы сможете посмотреть данные по 10 тренировкам.
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul> -->
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prises">
+                        <!-- <div class="catalog-item__old-price">4 750 руб.</div> -->
+                    <div class="catalog-item__price">5940 тг/шт</div>
+                    </div>
+                    
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+        </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/buildEquipment/Baumesser.png" alt="pusometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
+                            <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                            </li>
+                            <li>
+                                Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                            </li>
+                            <li>
+                                Также Вы увидите информацию о расходе калорий за тренировку;
+                            </li>
+                            <li>
+                                Вы сможете посмотреть данные по 10 тренировкам.
+                            </li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prises">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                        <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/buildEquipment/Marble.jpg" alt="pusometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
+                            <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                            </li>
+                            <li>
+                                Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                            </li>
+                            <li>
+                                Также Вы увидите информацию о расходе калорий за тренировку;
+                            </li>
+                            <li>
+                                Вы сможете посмотреть данные по 10 тренировкам.
+                            </li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prises">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                        <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img/buildEquipment/extra.png" alt="pusometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
+                            <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                Вы услышите звуковое оповещение о нужном пульсе во время тренировки;
+                            </li>
+                            <li>
+                                Вы увидите информативный графический индикатор целевых тренировочных зон пульса;
+                            </li>
+                            <li>
+                                Также Вы увидите информацию о расходе калорий за тренировку;
+                            </li>
+                            <li>
+                                Вы сможете посмотреть данные по 10 тренировкам.
+                            </li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prises">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                        <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5009.102486722833!2d71.40856425359968!3d51.1167393611723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245842ff79e83bf%3A0xdf3ef22158e55260!2z0YPQuy4g0JrQtdGA0LXQuSwg0JbQsNC90LjQsdC10Log0YXQsNC90LTQsNGAIDksINCd0YPRgC3QodGD0LvRgtCw0L0gMDIwMDAw!5e0!3m2!1sru!2skz!4v1618033066739!5m2!1sru!2skz" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="footer__info">
+            <address class="footer__address">Нурсултан, Керей,Жанибек хандар д.9</address>
+            <a href="tel:87789600627" class="footer__phone">8 (778) 962-06-27</a>
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваше телефон">
+                <input name="email" required placeholder="Ваше E-mail" type="email">
+                <button class="button button_submit" >заказать консультацию</button>
+            </form>
+        </div>
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Ваш заказ:</div>
+            <div class="modal__descr">Пульсометр Polar FT1</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваше телефон">
+                <input name="email" required placeholder="Ваше E-mail" type="email">
+                <button class="button button_submit" >купить</button>
+            </form>
+        </div>
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+        </div>
+    </div>
+
+    <a href="#up" class="pageup">
+        <img src="icons/chevron-up-solid.svg" alt="up" >
+    </a>
+    
+    <script src="js/jquery.maskedinput.min.js" ></script>
+    <script src="js/jquery.validate.min.js" ></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
